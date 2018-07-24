@@ -19,4 +19,8 @@ nights = gets.chomp.capitalize
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-def tripFinder(#{stay} )
+def tripFinder(stay, eat, nights)
+  puts "#{stay}, #{eat}, #{nights}!"
+end
+
+tripFinder(stay, eat, nights)
